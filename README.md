@@ -36,7 +36,7 @@ Built a comprehensive ML pipeline that:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Data Loader   │───▶│  Main Pipeline  │───▶│  MLflow UI     │
+│   Data Loader   │───▶│  Main Pipeline  │───▶│  MLflow UI      │
 │  - Enhanced     │    │  - Feature Eng. │    │  - Experiments  │
 │  - Pre-trained  │    │  - Model Eval.  │    │  - Metrics      │
 │  - Dictionary   │    │  - Business     │    │  - Governance   │
@@ -44,10 +44,10 @@ Built a comprehensive ML pipeline that:
          │                       │                       │
          ▼                       ▼                       ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  Interpretability│   │ Fairness        │    │  Model Training │
-│  - SHAP         │    │ Analysis        │    │  - LightGBM     │
+│  Interpretability│    │ Fairness       │    │  Model Training │
+│  - SHAP         │    │ Analysis       │    │  - LightGBM     │
 │  - Feature Imp. │    │ - Bias Detection│    │  - XGBoost      │
-│  - Counterfacts │    │ - Group Parity  │    │  - CatBoost     │
+│  - Counterfacts │    │ - Group Parity │    │  - CatBoost     │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
@@ -101,8 +101,8 @@ Built a comprehensive ML pipeline that:
 
 #### **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/kzyeaz/90-Day-Delinquency-Early-Warning-System
-
+git clone <your-repository-url>
+cd windsurf-project
 ```
 
 #### **Step 2: Install Dependencies**
@@ -139,7 +139,7 @@ data/
 python main_pipeline.py
 
 # Option 2: Quick analysis (streamlined)
-python quick_pipeline.py
+python quick_fix_pipeline.py
 
 # Option 3: Enhanced demonstration
 python enhanced_demo.py
@@ -219,7 +219,7 @@ mlflow ui
 
 #### **Quick Analysis (Minimal Dependencies)**
 ```bash
-python quick_pipeline.py
+python quick_fix_pipeline.py
 ```
 - Streamlined execution focusing on core functionality
 - Immediate model evaluation and feature importance
@@ -238,7 +238,7 @@ python enhanced_demo.py
 ## 🔧 **Project Structure**
 
 ```
-Early Warning Model/
+windsurf-project/
 ├── 📊 Data Files
 │   ├── train_lending_club.csv          # Training dataset (236K samples)
 │   ├── test_lending_club.csv           # Test dataset (95K samples)
@@ -247,7 +247,7 @@ Early Warning Model/
 │
 ├── 🚀 Main Pipeline
 │   ├── main_pipeline.py                # Primary execution script with MLflow
-│   ├── quick_pipeline.py           # Streamlined alternative
+│   ├── quick_fix_pipeline.py           # Streamlined alternative
 │   └── enhanced_demo.py                # Comprehensive demonstration
 │
 ├── 🔄 Core Modules
@@ -376,7 +376,7 @@ ls data/  # Should show: train_lending_club.csv, test_lending_club.csv, etc.
 ```bash
 # Error: MemoryError during data loading
 # Solution: Increase available RAM or use quick_fix_pipeline.py
-python quick_pipeline.py  # Uses less memory
+python quick_fix_pipeline.py  # Uses less memory
 ```
 
 #### **4. MLflow Issues**
@@ -428,8 +428,8 @@ python main_pipeline.py
 ### **Development Setup**
 ```bash
 # Clone repository
-git clone https://github.com/kzyeaz/90-Day-Delinquency-Early-Warning-System
-
+git clone <repository-url>
+cd windsurf-project
 
 # Create virtual environment
 python -m venv venv
@@ -439,6 +439,7 @@ venv\Scripts\activate     # Windows
 
 # Install development dependencies
 pip install -r requirements.txt
+pip install -r requirements-dev.txt  # If available
 ```
 
 ### **Code Quality Standards**
@@ -471,10 +472,10 @@ python -m pytest tests/performance/
 4. **MLflow UI**: Use http://localhost:5000 for experiment insights
 
 ### **Project Maintainer**
-- **Developer**: [Kazi Yeaz Ahmed]
-- **Email**: [kxa6967@mavs.uta.edu]
-- **LinkedIn**: [https://www.linkedin.com/in/kazi-yeaz-ahmed/]
-- **GitHub**: [https://github.com/kzyeaz/]
+- **Developer**: [Your Name]
+- **Email**: [Your Email]
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [Your GitHub Profile]
 
 ---
 
