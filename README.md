@@ -101,7 +101,7 @@ Built a comprehensive ML pipeline that:
 
 #### **Step 1: Clone Repository**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/kzyeaz/90-Day-Delinquency-Early-Warning-System
 
 ```
 
