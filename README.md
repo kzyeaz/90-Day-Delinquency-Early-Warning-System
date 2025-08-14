@@ -472,7 +472,7 @@ python -m pytest tests/performance/
 
 ### **Project Maintainer**
 - **Developer**: [Kazi Yeaz Ahmed]
-- **Email**: [kxa6967@mavs.utaa.edu]
+- **Email**: [kxa6967@mavs.uta.edu]
 - **LinkedIn**: [https://www.linkedin.com/in/kazi-yeaz-ahmed/]
 - **GitHub**: [https://github.com/kzyeaz/]
 
