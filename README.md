@@ -428,7 +428,7 @@ python main_pipeline.py
 ### **Development Setup**
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone <[repository-url](https://github.com/kzyeaz/90-Day-Delinquency-Early-Warning-System)>
 
 
 # Create virtual environment
